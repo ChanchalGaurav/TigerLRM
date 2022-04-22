@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TigerLRM" duration-ms="213546" started-at="2022-04-08T17:49:15Z" finished-at="2022-04-08T17:52:48Z">
+    <groups>
+    </groups>
+    <test name="Lead Relationship Management Test" duration-ms="213546" started-at="2022-04-08T17:49:15Z" finished-at="2022-04-08T17:52:48Z">
+      <class name="TigerLRM.testCases.TC_LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TigerLRM.testCases.TC_LoginTest@4157f54e]" name="setup" is-config="true" duration-ms="54681" started-at="2022-04-08T17:49:15Z" finished-at="2022-04-08T17:50:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:TigerLRM.testCases.TC_LoginTest@4157f54e]" name="loginTest" duration-ms="21640" started-at="2022-04-08T17:50:10Z" finished-at="2022-04-08T17:50:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="close()[pri:0, instance:TigerLRM.testCases.TC_LoginTest@4157f54e]" name="close" is-config="true" duration-ms="1973" started-at="2022-04-08T17:50:32Z" finished-at="2022-04-08T17:50:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TigerLRM.testCases.TC_LoginTest -->
+      <class name="TigerLRM.testCases.TC2_CreateLeadPage">
+        <test-method status="PASS" signature="setup()[pri:0, instance:TigerLRM.testCases.TC2_CreateLeadPage@90f6bfd]" name="setup" is-config="true" duration-ms="62640" started-at="2022-04-08T17:50:34Z" finished-at="2022-04-08T17:51:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CreateLeadPage()[pri:0, instance:TigerLRM.testCases.TC2_CreateLeadPage@90f6bfd]" name="CreateLeadPage" duration-ms="70292" started-at="2022-04-08T17:51:37Z" finished-at="2022-04-08T17:52:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateLeadPage -->
+        <test-method status="PASS" signature="close()[pri:0, instance:TigerLRM.testCases.TC2_CreateLeadPage@90f6bfd]" name="close" is-config="true" duration-ms="1492" started-at="2022-04-08T17:52:47Z" finished-at="2022-04-08T17:52:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TigerLRM.testCases.TC2_CreateLeadPage -->
+    </test> <!-- Lead Relationship Management Test -->
+  </suite> <!-- TigerLRM -->
+</testng-results>

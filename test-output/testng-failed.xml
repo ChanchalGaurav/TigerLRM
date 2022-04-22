@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TigerLRM]">
+  <listeners>
+    <listener class-name="TigerLRM.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Lead Relationship Management Test(failed)">
+    <classes>
+      <class name="TigerLRM.testCases.TC_LoginTest">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- TigerLRM.testCases.TC_LoginTest -->
+      <class name="TigerLRM.testCases.TC2_CreateLeadPage">
+        <methods>
+          <include name="CreateLeadPage"/>
+          <include name="setup"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- TigerLRM.testCases.TC2_CreateLeadPage -->
+    </classes>
+  </test> <!-- Lead Relationship Management Test(failed) -->
+</suite> <!-- Failed suite [TigerLRM] -->

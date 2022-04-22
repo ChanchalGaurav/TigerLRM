@@ -1,0 +1,9 @@
+TigerLRM\pageObjects\LoginPage.class
+TigerLRM\testCases\TC0_SignUpPage.class
+TigerLRM\utilities\ReadConfig.class
+TigerLRM\pageObjects\CreateLeadPage.class
+TigerLRM\utilities\Reporting.class
+TigerLRM\testCases\TC2_CreateLeadPage.class
+TigerLRM\testCases\TC_LoginTest.class
+TigerLRM\pageObjects\SignUpPage.class
+TigerLRM\testCases\BaseClass.class
